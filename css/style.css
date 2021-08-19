@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+section{
+	padding: 80px 0px;
+}
+body {
+	 background: #FFFFFF;
+	 font-size: 16px;
+	 font-family: 'Work Sans', sans-serif;
+ }
+ h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+}
+/*styling headder*/
+#topBar{
+  background: #ddd;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+.menuBg{
+  background: #F85032 !important;
+}
+.container{
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+  overflow: hidden;
+}
+.topBarWrapper{
+  overflow: hidden;
+}
+.logo{
+  width: 165px;
+  float: left;
+  overflow: hidden;
+}
+.logo h1{
+  font-size: 45px;
+  font-family: arial black ;
+  font-weight: 700;
+  margin-top: 8px;
+  overflow: hidden;
+}
+.logo h1 span{
+  color: #F85032;
+  overflow: hidden;
+}
+.menuBar{
+  width: 974px;
+  overflow: hidden;
+  float: right;
+}
+.mainMenuItem{
+  list-style: none;
+  float: right;
+}
+.mainMenuItem li{
+  float: left;
+}
+.mainMenuItem li a{
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding:25px 20px;
+  color: #0e0e0e;
+  display: block;
+  transition: 0.3s;
+}
+.mainMenuItem li a:hover{
+  color: #F85032;
+}
+.menuBg .mainMenuItem li a:hover{
+  color: #fff;
+}
+.menuBg .mainMenuItem li a{
+  color: #fff;
+}
+.menuBg .logo h1{
+	color: white;
+}
+.menuBg .logo h1 span{
+	color: white;
+}
+
+/*styling homeSlider*/
+#homeSlider{
+  background: linear-gradient(#000000ce,#000000ce),url(../img/slide-1.jpg);
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+ .typing{
+   color: #F85032;
+ }
+ .sliderWrapper{
+   overflow: hidden;
+ }
+ .homeContent{
+   color: white;
+   width: 800px;
+   overflow: hidden;
+   margin: auto;
+   padding: 250px 0px;
+   text-align: center !important;
+ }
+ .homeContent h2{
+   font-size: 40px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 800;
+ }
+ .homeContent h1{
+   font-size: 45px;
+   margin: 12px 0px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 800;
+ }
+ .socialIcon{
+   width: 250px;
+   overflow: hidden;
+   margin: auto;
+ }
+ .socialIcon a{
+   width: 30px;
+   height: 30px;
+   display: block;
+   display: grid;
+   place-items:center;
+   text-align: center;
+   padding: 7px;
+   margin: 7px;
+   float: left;
+   border-radius: 100%;
+   background: black;
+   border: 2px solid #F85032;
+   transition: 0.3s;
+   font-size: 15px;
+   color: white;
+   cursor: pointer;
+   overflow: hidden;
+   text-decoration: none;
+ }
+ .socialIcon a:hover{
+   background: #F85032;
+ }
+ /*aboutMySelf styling*/
+ #aboutMySelf{
+   
+ }
+ .secTitle h1{
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 900;
+   margin-bottom: 60px;
+   text-transform: uppercase;
+ }
+ .secTitle h1 span{
+   color: #F85032;
+ }
+ .aboutMySelfWrapper{
+   overflow: hidden;
+ }
+ .leftImg{
+   width: 300px;
+   height: 300px;
+   float: left;
+   border-radius: 100%;
+   overflow: hidden;
+   border: 8px solid #F85032;
+ }
+ .leftImg img{
+   width: 100%;
+   transition: 0.3s;
+   transform: scale(1.5);
+}
+.leftImg img:hover{
+   transform: scale(1.7);
+   cursor: pointer;
+ }
+ .rightContent{
+   width:730px;
+   float: right;
+   overflow: hidden;
+ }
+ .rightContent h1{
+   font-size: 40px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   color: black;
+ }
+ .rightContent p{
+   font-size: 14px;
+   line-height: 25px;
+   color: #888;
+   font-weight: 400;
+   font-family: 'Oswald', sans-serif;
+   margin: 15px 0px;
+ }
+ .rightContent button{
+   background: #F85032;
+   border: 2px solid #F85032;
+   color: white;
+   font-size: 18px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 600;
+   padding: 15px 20px;
+   border-radius: 3px;
+   width: 200px;
+   transition: 0.3s;
+   display: block;
+ }
+ .rightContent button:hover{
+   background: black;
+ }
+ .rightContent button i{
+   color: white;
+   font-size: 13px;
+   margin-left: 5px;
+ }
+ /*styling sarvice*/
+ #sarvice{
+	overflow:hidden;
+}
+.sarviceWrapper{
+   overflow: hidden;
+   margin-bottom: 20px;
+ }
+ .singleSarvice{
+   width: 488px;
+   height: 140px;
+   overflow: hidden;
+   background: white;
+   box-shadow: 1px 1px 50px 4px #ddd;
+   float: left;
+   margin-bottom: 60px;
+   margin-right: 30px;
+   padding: 25px;
+   border:1px solid #ddd;
+}
+ .sIcon{
+   width: 70px;
+   float: left;
+   overflow: hidden;
+ }
+ .sTitle{
+   width: 400px;
+   float: right;
+   overflow: hidden;
+ }
+ .sIcon{
+   font-size: 46px;
+   color: #F85032;
+   text-align: center;
+}
+ .sTitle h2{
+   font-size: 30px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   color: #333333;
+   transition: 0.3s;
+   text-transform: uppercase;
+   margin-bottom: 15px;
+ }
+ .sTitle h2:hover{
+   color: #F85032;
+ }
+ .sTitle p{
+   color: #666;
+   font-size: 16px;
+   line-height: 25px;
+   font-weight: 600;
+ }
+ /*styling protfollyo section*/
+ #protfollyo{
+   background: #f2f5f5;
+   overflow: hidden;
+ }
+ .sarviceWrapper{
+   overflow: hidden;
+ }
+ .singleProtfollyo{
+   width: 350px;
+   overflow: hidden;
+   float: left;
+   margin-right: 30px;
+   height: 220px !important;
+   position: relative;
+   transition: all 0.5s;
+ }
+ .singleProtfollyo:last-child{
+   margin-right: 0;
+ }
+ .singleProtfollyo img{
+   width: 100%;
+   overflow: hidden;
+ }
+ .overlay{
+   position: absolute;
+   background: rgba(0,0,0,.7);
+   width: 100%;
+   height: 100%;
+   top: -100%;
+   left: 0;
+   transition: all 0.5s;
+ }
+ .overlayIcon h2 a{
+   text-decoration: none;
+   color: white;
+ }
+ .overlayIcon h2{
+   position: absolute;
+   color: white;
+   width: 40px;
+   height: 40px;
+   display: block;
+   display: grid;
+   place-items:center;
+   text-align: center;
+   background: #F85032;
+   border: 2px solid #F85032;
+   transition: all 0.5s;
+   border-radius: 100%;
+   padding: 10px;
+   bottom: -100%;
+   left: 140px;
+ }
+ .overlayIcon h2:hover{
+   background: black;
+ }
+ .singleProtfollyo:hover .overlay{
+   top: 0px;
+ }
+  .singleProtfollyo:hover .overlayIcon h2{
+   bottom: 65px;
+ }
+ /*styling pricing section*/
+ #pricing{
+   overflow: hidden;
+ }
+ .pricingWrapper{
+   display: table;
+   margin-bottom: 20px;
+ }
+ .singlePricing{
+   width: 290px;
+   overflow: hidden;
+   float: left;
+   border: 1px solid #ddd;
+   margin-right: 30px;
+   text-align: center;
+   padding: 30px;
+   box-shadow: 1px 1px 40px 1px #ddd;
+ }
+ .singlePricing:last-child{
+   margin-right:0px;
+ }
+ .singlePricing h2{
+   font-size: 20px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #F85032;
+ }
+ .singlePricing h1{
+   font-family: arial black;
+   font-size: 45px;
+   font-weight: 900;
+   margin: 10px 0px;
+   text-transform: uppercase;
+ }
+ .singlePricing ul{
+   list-style: none;
+   margin: 10px 0px;
+ }
+ .singlePricing ul li{
+   line-height: 35px;
+   font-size: 17px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   color: #999;
+ }
+ .singlePricing button{
+   background: #F85032;
+   border: 2px solid #F85032;
+   color: white;
+   font-size: 16px;
+   font-family: arial black;
+   font-weight: 600;
+   padding: 10px 15px;
+   border-radius: 3px;
+   margin-top:20px;
+   transition: 0.3s;
+   text-transform: uppercase;
+ }
+ .singlePricing button:hover{
+   background: black;
+ }
+ /*styling skill section*/
+ #skill{
+   background: #f2f2f2;
+   overflow: hidden ;
+ }
+ .skillWrapper{
+   overflow: hidden;
+   column-count: 5;
+ }
+ 
+ /*styling education section*/
+ #education{
+   overflow: hidden;
+   background: #f6f5f5;
+ }
+ .educationWrapper{
+   overflow: hidden;
+   column-count: 3;
+ }
+ .singleEducation:hover .educationImg img{
+   transform: scale(1.2);
+   cursor: pointer;
+ }
+ .singleEducation{
+   width: 350px;
+   overflow: hidden;
+   background: white;
+ }
+ .educationImg{
+   overflow: hidden;
+
+ }
+ .educationImg img{
+   width: 100%;
+   transition:all 0.3s;
+ }
+ .educationTitle{
+   padding: 20px;
+   border-left: 1px solid #ddd;
+   border-right: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+ }
+ .educationTitle h1{
+   font-family: 'Oswald', sans-serif;
+   font-size: 40px;
+   text-transform: uppercase;
+   font-weight: 700;
+ }
+ .educationTitle h2{
+   font-family: 'Oswald', sans-serif;
+   font-size: 25px;
+   font-weight: 500;
+   margin: 10px 0px;
+   color: #333;
+ }
+  .educationTitle p{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 23px;
+   color: #666;
+ }
+ 
+ /*styling contact section*/
+ #contact{
+   overflow: hidden;
+ }
+ .contactWrapper{
+   display: table;
+   box-shadow:0px 5px 30px 2px #ddd;
+   margin-bottom: 40px;
+ }
+ .leftComment{
+   width: 48%;
+   height: 550px;
+   float: left;
+   overflow: hidden;
+   background:#333;
+ }
+ .leftComment p{
+   font-size: 17px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   color: white;
+   margin: auto;
+   width: 400px;
+   margin-top: 20px;
+   text-align: center;
+   line-height: 28px;
+ }
+ .leftComment h2{
+   font-size: 35px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: white;
+   text-align: center;
+ }
+ .leftComment h1 i{
+   transition: all 0.5s ease;
+}
+ .leftComment h1{
+   margin: auto;
+   margin-top: 90px;
+   margin-bottom: 30px !important;
+   width: 150px;
+   height: 150px;
+   display: block;
+   display: grid;
+   place-items:center;
+   background:white;
+   color: black;
+   font-size: 70px;
+   border-radius: 100%;
+ }
+ .rightBox{
+   width:48%;
+   float: right !important;
+   overflow: hidden;
+   padding:25px 10px;
+ }
+ .rightBox form textarea{
+   width: 495px;
+   height: 100px;
+   border: 1px solid #ddd;
+ }
+ .rightBox form textarea,
+ .rightBox form input{
+   width: 90%;
+   padding:20px;
+   font-size: 16px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   margin-bottom: 15px;
+   text-transform: uppercase;
+   border-radius: 8px;
+   border: 2px solid #ddd;
+   outline: none;
+   color: #999;
+ }
+ #formBtn{
+   background: #F85032;
+   border: 2px solid #F85032;
+   color: white;
+   font-size: 18px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 600;
+   width: 100% !important;
+   transition: 0.3s;
+ }
+ #formBtn:hover{
+	background: black;
+}
+.leftComment:hover h1 i{
+  color: #F85032;
+  transform: rotate(360deg);
+}
+
+
+/* styling scrollTopIcon*/
+.scrollTopIcon{
+  width: 50px;
+  height: 60px;
+  display: block;
+  background: #F85032;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  place-items:center;
+  position: fixed;
+  right: 30px;
+  bottom: 58px;
+  font-size: 38px;
+}
+
+/*styling footer part*/
+#footerPart{
+	overflow: hidden;
+	background: #222222;
+	color: #fff;
+}
+.footerWrapper{
+	overflow: hidden;
+}
+.leftContent{
+	padding: 20px;
+	width: 70%;
+	float: left;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+.rightIcon{
+	width: 20%;
+	float: right !important;
+	overflow: hidden;
+}
+.rightIcon  a:first-child{
+	border-left: 1px solid #ddd;
+}
+.rightIcon  a{
+   display: block;
+   display: grid;
+   place-items:center;
+   text-align: center;
+   float: left;
+   border-right: 1px solid #ddd;
+   transition: 0.3s;
+   font-size: 17px;
+   color: white;
+   cursor: pointer;
+   overflow: hidden;
+   text-decoration: none;
+   padding:20px;
+}
